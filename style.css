@@ -1,0 +1,257 @@
+.body,
+.container {
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+body {
+  margin: 0;
+}
+.card {
+  border: 2px solid #000000;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: white;
+  height: 200px;
+}
+.card img {
+  border-radius: 50%;
+}
+.main_card {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+h5 {
+  font-size: 15px;
+}
+.bleh0 {
+  display: flex;
+  justify-content: center;
+  margin-left: 450px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.bleh .box1 {
+  display: flex;
+  margin: 0 20px;
+}
+.box1 {
+  padding: 0 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  background-color: #f5f5f5;
+}
+.head {
+  background-color: #f5f5f5;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head .menu ul li {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 20px;
+}
+.head .menu ul li a {
+  text-transform: uppercase;
+  font-size: small;
+}
+.main-card1 {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 300px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+}
+.hotel {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+}
+.banner-text {
+  position: absolute;
+  text-decoration: none;
+}
+.resort {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+.pic0,
+.pic9,
+.pic8,
+.pic7 {
+  position: relative;
+}
+.banner1,
+.banner2,
+.banner3,
+.banner4 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-decoration: none;
+}
+.picture {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.picture img {
+  padding-right: 100px;
+}
+.picture video {
+  margin-top: 170px;
+  border-radius: 20px;
+  margin-right: -70px;
+}
+.picture .vdo {
+  z-index: 50;
+}
+.hs {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin: auto;
+  padding-top: 30px;
+}
+.hs img {
+  border-radius: 20px;
+}
+.pic1,
+.pic2 {
+  position: relative;
+}
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner5,
+.banner6 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  text-decoration: none;
+}
+.background1 h1 {
+  padding-top: 40px;
+}
+.background1,
+.pic1,
+.pic2 {
+  margin-bottom: 50px;
+}
+.background2 h1 {
+  padding-top: 40px;
+}
+.background1 {
+  margin-bottom: 0;
+}
+.background2,
+.pic7,
+.pic8 {
+  padding-bottom: 50px;
+}
+.background3 {
+  padding-top: 150px;
+}
+.background3 h4 {
+  padding-top: 40px;
+  margin-bottom: -15px;
+}
+.background3,
+.main_card {
+  margin-top: -130px;
+}
+/* Container */
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: auto;
+  max-width: 1500px;
+  justify-content: center;
+}
+/* Sections */
+.section h3 {
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 13px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.section li {
+  font-size: 13px;
+}
+.section ul li {
+  margin-bottom: 1px;
+}
+.bord {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 1200px;
+  height: 2px;
+  background-color: #000000;
+  justify-content: center;
+  margin: auto;
+}
+.bord {
+  margin-left: 140px;
+}
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  justify-content: center;
+}
+.swiper-slide body {
+  align-items: center;
+  scroll-behavior: smooth;
+}
+.swiper-wraper {
+  justify-content: center;
+}
+.swiper-pagination {
+  color: orangered !important;
+  position: unset !important;
+}
