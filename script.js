@@ -1,7 +1,15 @@
-<>
-  <script
-    src="https://kit.fontawesome.com/12e2066573.js"
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-</>;
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 20,
+  slidesPerView: 1.1,
+  centeredSlides: true,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
